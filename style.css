@@ -1,0 +1,115 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0052FF 0%, #0041CC 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#app {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #0052FF 0%, #0041CC 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 82, 255, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+appkit-button {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#wallet-info {
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: 600;
+  color: #555;
+  font-size: 14px;
+}
+
+.value {
+  color: #0052FF;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  word-break: break-all;
+  text-align: right;
+  max-width: 60%;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WCAppKitTest - bituzin</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>WCAppKitTest</h1>
+      <p class="subtitle">by bituzin</p>
+      
+      <div class="buttons">
+        <button id="connect-btn">Connect Wallet</button>
+      </div>
+
+      <appkit-button></appkit-button>
+
+      <div id="wallet-info" style="display: none;">
+        <h3>💼 Informacje o wallecie</h3>
+        <div class="info-row">
+          <span class="label">Adres:</span>
+          <span class="value" id="address">-</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Sieć:</span>
+          <span class="value" id="network">-</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Chain ID:</span>
+          <span class="value" id="chain-id">-</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Balans:</span>
+          <span class="value" id="balance">-</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
