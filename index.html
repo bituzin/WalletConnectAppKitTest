@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,19 +11,20 @@
       <p class="subtitle">by bituzin</p>
       
       <div class="buttons">
+        <button id="send-hi-btn" style="display: none;">Send Hi to Base</button>
         <button id="connect-btn">Connect Wallet</button>
       </div>
 
       <appkit-button></appkit-button>
 
       <div id="wallet-info" style="display: none;">
-        <h3>💼 Informacje o wallecie</h3>
+        <h3>💼 Wallet Information</h3>
         <div class="info-row">
-          <span class="label">Adres:</span>
+          <span class="label">Address:</span>
           <span class="value" id="address">-</span>
         </div>
         <div class="info-row">
-          <span class="label">Sieć:</span>
+          <span class="label">Network:</span>
           <span class="value" id="network">-</span>
         </div>
         <div class="info-row">
@@ -31,7 +32,7 @@
           <span class="value" id="chain-id">-</span>
         </div>
         <div class="info-row">
-          <span class="label">Balans:</span>
+          <span class="label">Balance:</span>
           <span class="value" id="balance">-</span>
         </div>
       </div>
