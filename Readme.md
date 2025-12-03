@@ -10,7 +10,6 @@ Simple dApp demonstrating WalletConnect integration with modern Web3 wallet conn
 ## 🌐 Live Demo
 
 - **GitHub Pages**: [https://bituzin.github.io/WalletConnectAppKitTest/](https://bituzin.github.io/WalletConnectAppKitTest/)
-- **Vercel**: [https://wallet-connect-app-kit-test.vercel.app](https://wallet-connect-app-kit-test.vercel.app)
 
 ## ✨ Features
 
